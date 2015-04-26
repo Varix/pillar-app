@@ -1,0 +1,213 @@
+<resources>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="cycle_length_array">
+        <item>28</item>
+        <item>56</item>
+        <item>1337</item>
+    </string-array>
+
+    <string-array name="placebo_day_array">
+        <item>0</item>
+        <item>7</item>
+        <item>28</item>
+    </string-array>
+
+    <string-array name="pill_array">
+        <item>Altavera</item>
+        <item>Alyacen 1/35</item>
+        <item>Alyacen 7/7/7</item>
+        <item>Amethia</item>
+        <item>Amethia Lo</item>
+        <item>Amethyst</item>
+        <item>Apri</item>
+        <item>Aranelle</item>
+        <item>Aviane</item>
+        <item>Azurette</item>
+        <item>Balziva</item>
+        <item>Beyaz</item>
+        <item>Brevicon</item>
+        <item>Briellyn</item>
+        <item>Camila</item>
+        <item>Camrese</item>
+        <item>Camrese Lo</item>
+        <item>Caziant</item>
+        <item>Cesia</item>
+        <item>Cryselle</item>
+        <item>Cyclafem 1/35</item>
+        <item>Cyclafem 7/7/7</item>
+        <item>Cyclessa</item>
+        <item>Dasetta 1/35</item>
+        <item>Dasetta 7/7/7</item>
+        <item>Daysee</item>
+        <item>Desogen</item>
+        <item>Elinest</item>
+        <item>Emoquette</item>
+        <item>Enpresse</item>
+        <item>Errin</item>
+        <item>Estarylla</item>
+        <item>Estrostep Fe</item>
+        <item>Femcon Fe</item>
+        <item>Generess Fe</item>
+        <item>Gianvi</item>
+        <item>Gildagia</item>
+        <item>Gildess Fe</item>
+        <item>Heather</item>
+        <item>Introvale</item>
+        <item>Jencycla</item>
+        <item>Jolessa</item>
+        <item>Jolivette</item>
+        <item>Junel 21 1.5/30</item>
+        <item>Junel 21 1/20</item>
+        <item>Junel Fe 1.5/30</item>
+        <item>Junel Fe 1/20</item>
+        <item>Kariva</item>
+        <item>Kelnor</item>
+        <item>Kurvelo</item>
+        <item>Leena</item>
+        <item>Lessina</item>
+        <item>Levlite</item>
+        <item>Levora</item>
+        <item>Lo Loestrin Fe</item>
+        <item>Lo/Ovral-28</item>
+        <item>Loestrin 21 1.5/30</item>
+        <item>Loestrin 21 1/20</item>
+        <item>Loestrin 24 Fe</item>
+        <item>Loestrin Fe 1.5/30</item>
+        <item>Loestrin Fe 1/20</item>
+        <item>Loryna</item>
+        <item>LoSeasonique</item>
+        <item>Low-Ogestrel</item>
+        <item>Lutera</item>
+        <item>Lybrel</item>
+        <item>Marlissa</item>
+        <item>Microgestin 1.5/30</item>
+        <item>Microgestin 1/20</item>
+        <item>Microgestin Fe 1.5/30</item>
+        <item>Microgestin Fe 1/20</item>
+        <item>Mircette</item>
+        <item>Modicon</item>
+        <item>Mono-Linyah</item>
+        <item>MonoNessa</item>
+        <item>Myzilra</item>
+        <item>Natazia </item>
+        <item>Necon 0.5/35</item>
+        <item>Necon 1/35</item>
+        <item>Necon 1/50</item>
+        <item>Necon 10/11</item>
+        <item>Necon 7/7/7</item>
+        <item>Nor-QD</item>
+        <item>Nora-BE</item>
+        <item>Nordette</item>
+        <item>Norinyl 1/35</item>
+        <item>Norinyl 1/50</item>
+        <item>Nortrel 0.5/35</item>
+        <item>Nortrel 1/35</item>
+        <item>Nortrel 7/7/7</item>
+        <item>Ocella</item>
+        <item>Ogestrel</item>
+        <item>Orsythia</item>
+        <item>Ortho Micronor</item>
+        <item>Ortho Tri-Cyclen</item>
+        <item>Ortho Tri-Cyclen Lo</item>
+        <item>Ortho-Cept</item>
+        <item>Ortho-Cyclen</item>
+        <item>Ortho-Novum 1/35</item>
+        <item>Ortho-Novum 7/7/7</item>
+        <item>Ovcon 35</item>
+        <item>Ovcon 50</item>
+        <item>Philith</item>
+        <item>Portia</item>
+        <item>Previfem</item>
+        <item>Quartette</item>
+        <item>Quasense</item>
+        <item>Reclipsen</item>
+        <item>Safyral</item>
+        <item>Seasonale</item>
+        <item>Seasonique</item>
+        <item>Solia</item>
+        <item>Sprintec</item>
+        <item>Sronyx</item>
+        <item>Syeda</item>
+        <item>Tilia Fe</item>
+        <item>Tri-Estarylla</item>
+        <item>Tri-Legest Fe</item>
+        <item>Tri-Linyah</item>
+        <item>Tri-Norinyl</item>
+        <item>Tri-Previfem</item>
+        <item>Tri-Sprintec</item>
+        <item>TriNessa</item>
+        <item>Triphasil</item>
+        <item>Trivora</item>
+        <item>Velivet</item>
+        <item>Vestura</item>
+        <item>Viorele4 </item>
+        <item>Wera</item>
+        <item>Yasmin</item>
+        <item>Yaz</item>
+        <item>Zarah</item>
+        <item>Zenchant</item>
+        <item>Zenchant Fe</item>
+        <item>Zeosa</item>
+        <item>Zovia 1/35</item>
+        <item>Zovia 1/50</item>
+    </string-array>
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+</resources>
